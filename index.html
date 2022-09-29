@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restourant</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js	"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="wrapper header__wrapper">
+				<div class="logo">
+					<img src="img/logo.png" alt="logo" class="logo__img">
+				</div>
+				<nav>
+					<ul class="nav">
+						<li class="nav__item">
+							<a href="#">главная</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">меню</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">доставка</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">контакты</a>
+						</li>
+						<li class="nav__item">
+							<a href="#">акции</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="social-networks">
+					<div class="social-networks__item">
+						<a href="#" class="social-networks__link">
+							<img src="img/phone.png" alt="phone">
+							<p>+38 (050) 123 45 67</p>
+						</a>
+					</div>
+					<div class="social-networks__item">
+						<a href="#" class="social-networks__link">
+							<img src="img/facebook.png" alt="facebook">
+						</a>
+					</div>
+					<div class="social-networks__item">
+						<a href="#" class="social-networks__link">
+							<img src="img/instagram.png" alt="intagram">
+						</a>
+					</div>
+					<div class="social-networks__item">
+						<a href="#" class="social-networks__link">
+							<img src="img/twitter.png" alt="twitter">
+						</a>
+					</div>
+				</div>
+               <div class="burger-menu" onclick="$('.burger-menu').toggleClass('active')">
+					<div class="burger-menu__wrapper">
+						<span class="burger-menu__item"></span>
+						<span class="burger-menu__item"></span>
+						<span class="burger-menu__item"></span>
+				    </div>
+					<nav class="burger-menu__nav">
+						<ul class="nav">
+							<li class="nav__item">
+								<a href="#">главная</a>
+							</li>
+							<li class="nav__item">
+								<a href="#">меню</a>
+							</li>
+							<li class="nav__item">
+								<a href="#">доставка</a>
+							</li>
+							<li class="nav__item">
+								<a href="#">контакты</a>
+							</li>
+							<li class="nav__item">
+								<a href="#">акции</a>
+							</li>
+						</ul>
+					</nav>
+			   </div>
+			</div>
+		</header>
+		<section class="hero-page">
+			<div class="wrapper hero-page__wrapper">
+				<h1 class="hero-page__title">Попробуй лучшую <span>грузинскую</span> кухню в Киеве.</h1>
+				<p class="hero-page__text">В нашем ресторане Вы найдете лучшие блюда приготвленные по старинным рецептам
+					грузинской кухни. Потрясающий вкус блюд перенесет Вас к атмосферу невероятного Тбилисси не выходя из
+					дома.</p>
+				<button class="hero-page__btn btn">ПЕРЕЙТИ К МЕНЮ</button>
+			</div>
+		</section>
+		<main class="main">
+			<section class="taste">
+				<div class="tomato"></div>
+				<div class="taste__title intro">
+					<h3 class="intro__title">Попробуйте на вкус</h3>
+					<p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium netus
+						urna hendrerit convallis aliquam consequat turpis.</p>
+				</div>
+				<div class="taste__meals meal">
+					<div class="meal__item">
+						<div class="meal__item-basil"></div>
+						<img src="img/meal3.png" alt="meal" class="meal__item-img">
+						<p class="meal__item-text">Здесь будет какой то текст, возможно назване блюда</p>
+					</div>
+					<div class="meal__item">
+						<img src="img/meal2.png" alt="meal" class="meal__item-img">
+						<p class="meal__item-text">Здесь будет какой то текст, возможно назване блюда</p>
+					</div>
+					<div class="meal__item">
+						<img src="img/meal3.png" alt="meal" class="meal__item-img">
+						<p class="meal__item-text">Здесь будет какой то текст, возможно назване блюда</p>
+					</div>
+				</div>
+				<button class="taste__btn btn">ПЕРЕЙТИ К ДОСТАВКЕ</button>
+				<div class="basil"></div>
+			</section>
+			<section class="menu">
+				<div class="menu__title intro">
+					<h3 class="intro__title">Меню</h3>
+					<p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium netus
+						urna hendrerit convallis aliquam consequat turpis.</p>
+				</div>
+				<div class="menu__wrapper">
+					<div class="menu__item">
+						<button class="menu__item-button">открыть меню</button>
+						<p class="menu__item-text">Супы</p>
+					</div>
+					<div class="menu__item">
+						<button class="menu__item-button">открыть меню</button>
+						<p class="menu__item-text">Блюда на мангале</p>
+					</div>
+					<div class="menu__item">
+						<button class="menu__item-button">открыть меню</button>
+						<p class="menu__item-text">Горячие блюда</p>
+					</div>
+					<div class="menu__item">
+						<button class="menu__item-button">открыть меню</button>
+						<p class="menu__item-text">Салаты</p>
+					</div>
+					<div class="menu__item">
+						<button class="menu__item-button">открыть меню</button>
+						<p class="menu__item-text">Соусы</p>
+					</div>
+					<div class="menu__item">
+						<button class="menu__item-button">открыть меню</button>
+						<p class="menu__item-text">Выпечка</p>
+					</div>
+				</div>
+			</section>
+			<section class="delivery wrapper">
+				<div class="delivery__title intro">
+					<h3 class="intro__title">Удобные способы доставки</h3>
+					<p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium netus
+						urna hendrerit convallis aliquam consequat turpis.</p>
+				</div>
+				<div class="delivery__basil-second"></div>
+                 <div class="delivery__container">
+					<div class="delivery__wrapper">
+					    <div class="delivery__item">
+								<img class="delivery__item-img" src="./img/Ellipse 1.png" alt="picture">
+								<p class="delivery__item-text">Доставка при помощи наших курьеров при заказе от 2000 грн</p>
+							</div>
+							<div class="delivery__item">
+								<img src="./img/Ellipse 2.png" alt="picture" class="delivery__item-img">
+								<p class="delivery__item-text">Доставка при помощи сервиса по оставке еды и лальше по тексту</p>
+							</div>
+							<div class="delivery__item">
+								<img src="./img/Ellipse 3.png" alt="picture" class="delivery__item-img">
+								<p class="delivery__item-text">Доставка при помощи сервиса по оставке еды и лальше по тексту</p>
+							</div>
+				        </div>
+					<div class="delivery__picture">
+                         <img class="delivery__picture-img" src="./img/georgian-stew-chakapuli-veal-with-estragon-persimmon 1.png" alt="dish">
+					</div>
+				 </div>
+					 <div class="delivery__basil_third"></div>
+					 <div class="delivery__tomato-small"></div>
+			</section>
+			<section class="dish">
+				<div class="dish__img"><img src="./img/dish1.jpg" alt="dish"></div>
+				<div class="dish__img"><img src="./img/dish2.jpg" alt="dish"></div>
+				<div class="dish__img"><img src="./img/dish3.jpg" alt="dish"></div>
+				<div class="dish__img"><img src="./img/dish4.jpg" alt="dish"></div>
+				<div class="dish__img"><img src="./img/dish5.jpg" alt="dish"></div>
+				<div class="dish__img"><img src="./img/dish6.jpg" alt="dish"></div>
+				<div class="dish__img"><img src="./img/dish7.jpg" alt="dish"></div>
+				<div class="dish__img"><img src="./img/dish8.jpg" alt="dish"></div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer">
+				<div class="footer__top">
+					<div><img src="./img/logo.png" alt="logo"></div>
+					  <ul class="footer__social">
+						<li>+38 (050) 456-99-98</li>
+						<li><img src="./img/telegram.png" alt="telegram"></li>
+						<li><img src="./img/viber.png" alt="viber"></li>
+						<li><img src="./img/wats.png" alt="wats"></li>
+					  </ul>
+				   <p> г. Киев, район стадиона Динамо</p>
+					<p>Email: mail@mal.ru</p>
+				</div>
+				<div class="footer__bottom">
+					<p>Политика конфиденциальности</p>
+					<p>Пользовательское соглашение</p>
+					<p>Динамо. Грузинское бистро. Все права защищены, 2021</p>
+				</div>
+			</div>
+		  </footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.social-networks {
+	@include flex(row);
+
+	gap: 10px;
+
+	&__link {
+		@include flex(row);
+		gap: 10px;	
+		
+		@media  screen and (max-width:$tablet) {
+		p {
+			display: none;
+		}
+		}	
+	}
+	
+}

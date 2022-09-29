@@ -1,0 +1,11 @@
+.nav {
+	@include flex(row);
+	gap: 10px;
+
+	list-style-type: none;
+
+	&__item a {
+		font-size: 16px;
+		padding: 10px;
+	}
+}
