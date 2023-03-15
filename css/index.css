@@ -379,6 +379,11 @@ a:hover {
     right: -30px;
     z-index: 2;
 }
+  .delivery__item{
+  flex-direction: column;
+  padding-bottom: 26px;
+  padding-left: 150px;
+}
 }
 
 .dish {
