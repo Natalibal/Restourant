@@ -278,6 +278,8 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
+}
+  @media screen and (max-width: 414px) {
   .menu__item-text {
     font-size: 15px;
     line-height: 1.5;
