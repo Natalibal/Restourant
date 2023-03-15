@@ -361,10 +361,10 @@ a:hover {
   .delivery__item-img {
    width: 100%;
   }
-.delivery__item-text {
-  font-size: 25px;
-    max-width: 636px;
-    margin: 0 auto 60px}
+  .delivery__container {
+    display: flex;
+    flex-direction: column;
+}
 }
 
 .dish {
