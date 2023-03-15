@@ -377,7 +377,7 @@ a:hover {
     height: 350px;
     object-fit: cover;
     bottom: -50px;
-    right: -30px;
+    right: 60px;
     z-index: 2;
 }
   .delivery__item{
