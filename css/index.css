@@ -484,15 +484,11 @@ a:hover {
   .footer__top {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
+    
   }
   .footer__bottom {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 50px;
-    padding-top: 10px;
   }
 }
 
