@@ -484,11 +484,12 @@ a:hover {
   .footer__top {
     display: flex;
     flex-direction: column;
-    
+    gap: 5px;
   }
   .footer__bottom {
     display: flex;
     flex-direction: column;
+    gap: 5px;
   }
 }
 
